@@ -16,3 +16,10 @@ print(result)
 two.union(three)
 two.subtract(three)
 two.symmetricDifference(three)
+
+// Set 으로 중복값 제거하기
+func removeDuplication(in array: [Int]) -> [Int]{
+    let set = Set(array)
+    let duplicationRemovedArray = Array(set)
+    return duplicationRemovedArray
+}
