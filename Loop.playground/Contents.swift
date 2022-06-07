@@ -1,3 +1,7 @@
+/*
+ 1. 5의 배수와 7의 배수를 찾기
+ */
+
 let musicList = ["아이유 - 좋은날", "이무진 - 과제곡", "BTS - Dynamite"]
 
 for index in 0..<musicList.count {
@@ -16,3 +20,4 @@ musicList.forEach { music in
 for number in 1...100 {
     print(number)
 }
+                                       
